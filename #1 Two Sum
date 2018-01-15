@@ -25,3 +25,5 @@ class Solution {
        return null; 
     }
 }
+
+Solution #2 Hashtable
