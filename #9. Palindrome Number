@@ -14,7 +14,7 @@ Solution:
 class Solution {
     public boolean isPalindrome(int x) {
         long reverse = 0;
-        int Copyx = x;
+        long Copyx = x;
         if(x<0){return false;}
         while(Copyx!=0){
             reverse = reverse*10+Copyx%10;
