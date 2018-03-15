@@ -10,7 +10,23 @@ Given nums = [3,2,2,3], val = 3,
 
 Your function should return length = 2, with the first two elements of nums being 2.
 
-My solution(was wrong):
+My solution 1:
+
+class Solution {
+    public int removeElement(int[] nums, int val) {
+      int counts=0;
+      for(int i=0;i<nums.length;i++){
+          if(nums[i]!=val){
+              nums[counts]=nums[i];
+              counts++;
+          }
+      }
+        return counts;
+    }
+}
+
+
+My solution 2 (was wrong, should be correct):
 
 class Solution {
     public int removeElement(int[] nums, int val) {
