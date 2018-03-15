@@ -24,7 +24,7 @@ class Solution {
 }
 
 
-My solution(was wrong):
+My solution(was wrong, should be correct):
 
 class Solution {
     public int removeDuplicates(int[] nums) {
